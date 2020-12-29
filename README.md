@@ -12,6 +12,10 @@ Negative changes means the device is going upwards where the relative pressure v
 
 These value were tested based on the location that I am sitting that time. It may differs from location to location.
 
+
+The Test Data in Excel file is the movement data from Ground floor up to 3rd floor and lastly stopped at 1st floor.
+
+
 ## Requirements
 
  **1 STM32F411**
