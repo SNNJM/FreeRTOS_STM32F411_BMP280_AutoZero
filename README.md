@@ -2,7 +2,15 @@
 
 This FreeRTOS programs uses C programming language that enables the STM32 mcu to get the pressure data from the BMP280 sensor through I2C communication channel.
 
+A reference pressure value is used as a fixed variable, which in my case I used the SEA_LEVEL_PRESSURE = 1013.23f.
 
+The pressure (hpa) will be zero if the relative pressure value is less than 0.07, indicating it has return to the reference point.
+
+Positive changes means the device is going downwards where the relative pressure value would be >= 0.8
+
+Negative changes means the device is going upwards where the relative pressure value would be < 0.8
+
+These value were tested based on the location that I am sitting that time. It may differs from location to location.
 
 ## Requirements
 
