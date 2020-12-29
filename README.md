@@ -32,3 +32,18 @@ You need to build the project using stm32cubemx software.
 I had provided the .ioc file for this purpose
 
 Utilize the Inc and Src files.
+
+
+## Data Logger using Keil
+
+The alt_log.Ini file is a logger file that capture average pressure and relative pressure. You may change this accordingly.
+
+## How to Use Data Logger in Keil
+
+**1.	Connect the device as usual and get into debug mode**
+**2.	Go to debug - Function Editor (ini file) - choose the file that I gave**
+**3.	Compile the function**
+**4.	Type in the name of function “pressure_log()” into Kiel’s console & press enter**
+**5.	Run debugger**
+
+
